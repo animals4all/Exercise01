@@ -13,6 +13,11 @@ while True:
 	if guess < number:
 		print ""
 		print "Your guess is too low."
+		print ""
 	elif guess > number:
 		print ""
 		print "Your guess is too high."
+		print ""
+	else:
+		print "Congratulations, %s! You correctly guessed my number. It was %d." % (name, number)
+		break
