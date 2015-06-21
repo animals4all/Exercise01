@@ -10,3 +10,9 @@ print ""
 
 while True:
 	guess = int(raw_input("Your guess?: "))
+	if guess < number:
+		print ""
+		print "Your guess is too low."
+	elif guess > number:
+		print ""
+		print "Your guess is too high."
