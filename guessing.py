@@ -39,7 +39,7 @@ while True:
 				turnNumber = 0
 
 				if raw_input("Want to play again?: ").lower() in ("y", "yes"):
-					name = raw_input("Please enter your name: ")
+					print ""
 					number = random.randint(1, 100)
 					print "%s, try to guess the number I'm thinking of. It's between 1 and 100." % name
 					print ""
